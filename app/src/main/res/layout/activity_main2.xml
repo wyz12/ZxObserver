@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zxwl.zxobserver.Main2Activity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+        <ImageView
+            android:gravity="center"
+            android:src="@drawable/ic_launcher_background"
+            android:layout_width="match_parent"
+            android:layout_height="90dp" />
+        <TextView
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="未确认"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+    </LinearLayout>
+    <TextView
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:text="租船信息"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="30dp"
+                android:gravity="center_vertical"
+                android:textSize="15dp"
+                android:text="数量（桶）"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+            <TextView
+                android:layout_marginLeft="30dp"
+                android:gravity="center_vertical"
+                android:textSize="15dp"
+                android:text="装港/装港区域"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+            <TextView
+                android:layout_marginLeft="30dp"
+                android:gravity="center_vertical"
+                android:textSize="15dp"
+                android:text="卸港/卸港区域"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+            <TextView
+                android:layout_marginLeft="30dp"
+                android:gravity="center_vertical"
+                android:textSize="15dp"
+                android:text="装期"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+            <TextView
+                android:layout_marginLeft="30dp"
+                android:gravity="center_vertical"
+                android:textSize="15dp"
+                android:text="船型"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+            <TextView
+                android:layout_marginLeft="30dp"
+                android:gravity="center_vertical"
+                android:textSize="15dp"
+                android:text="船龄"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+            <TextView
+                android:layout_marginLeft="30dp"
+                android:gravity="center_vertical"
+                android:textSize="15dp"
+                android:text="租船其他要求"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+            <TextView
+                android:layout_marginLeft="30dp"
+                android:gravity="center_vertical"
+                android:textSize="15dp"
+                android:text="承运方"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+
+                android:textSize="15dp"
+                android:gravity="center_vertical"
+                android:text="00000"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+            <TextView
+                android:textSize="15dp"
+                android:gravity="center_vertical"
+                android:text="00000"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+            <TextView
+                android:textSize="15dp"
+                android:gravity="center_vertical"
+                android:text="00000"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+            <TextView
+                android:textSize="15dp"
+                android:gravity="center_vertical"
+                android:text="00000"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+            <TextView
+                android:textSize="15dp"
+                android:gravity="center_vertical"
+                android:text="00000"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+            <TextView
+                android:textSize="15dp"
+                android:gravity="center_vertical"
+                android:text="00000"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+            <TextView
+                android:textSize="15dp"
+                android:gravity="center_vertical"
+                android:text="00000"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+            <TextView
+                android:textSize="15dp"
+                android:gravity="center_vertical"
+                android:text="00000"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <TextView
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:text="联系方式"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="30dp"
+                android:gravity="center_vertical"
+                android:textSize="15dp"
+                android:text="公司"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+            <TextView
+                android:layout_marginLeft="30dp"
+                android:gravity="center_vertical"
+                android:textSize="15dp"
+                android:text="联系人"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+            <TextView
+                android:layout_marginLeft="30dp"
+                android:gravity="center_vertical"
+                android:textSize="15dp"
+                android:text="邮件"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+            <TextView
+                android:layout_marginLeft="30dp"
+                android:gravity="center_vertical"
+                android:textSize="15dp"
+                android:text="电话"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="15dp"
+                android:gravity="center_vertical"
+                android:text="00000"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+            <TextView
+                android:textSize="15dp"
+                android:gravity="center_vertical"
+                android:text="00000"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+            <TextView
+                android:textSize="15dp"
+                android:gravity="center_vertical"
+                android:text="00000"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+            <TextView
+                android:textSize="15dp"
+                android:gravity="center_vertical"
+                android:text="00000"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+            <Button
+                android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="询盘信息" />
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="询盘信息" />
+        <TextView
+            android:id="@+id/texts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="询盘信息" />
+
+    </LinearLayout>
+</ScrollView>
